@@ -37,7 +37,7 @@ void p2bc(uint32_t code) {
 
 int main() {
 	int c;
-	while((c = getchar()) > 0) {	// Read a char has long has we don't reach EOF.
+	while((c = getchar()) > 0) {	// Read a char as long as we don't reach EOF.
 		putc(c,stdout);
 		uint32_t n = rand()%6;  // To decide a number of diacritics to use for this char.
 		while(n--) {		// n-- return n, then decrement it
