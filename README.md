@@ -5,7 +5,7 @@ Thanks to LunaSorcery for her own implementation which helped me understand uÍ‘Ì
 
 ```
 gcc golfed.c
-echo "You are late for the daily meeting, the fake manager said." | ./a.out
+echo "Vive la commune." | ./a.out
 ```
 
 
